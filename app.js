@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send(`
-    <h1>CI/CD Node App 🚀</h1>
+    <h1>CI/CD Nooode App 🚀</h1>
     <p>Deployed using AWS CodePipeline + CodeBuild + EC2</p>
     <a href="/health">Health Check</a>
   `);
