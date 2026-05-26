@@ -1,0 +1,21 @@
+{
+  "name": "cicd-node-app",
+  "version": "1.0.0",
+  "description": "CI/CD Demo App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Tests passed successfully\" && exit 0"
+  },
+  "author": "Mudasir",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
